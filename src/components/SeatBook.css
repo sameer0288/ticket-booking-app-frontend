@@ -1,0 +1,66 @@
+/* Styling for the main heading */
+.Heading {
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+/* Container for the bus seats */
+.bus-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Example styles for bus seat buttons */
+.seatButton {
+    width: 100%;
+    margin: 5px;
+    padding: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    transition: background-color 0.3s ease;
+}
+
+.seatButton.booked {
+    background-color: #ff0000;
+    color: #fff;
+    cursor: not-allowed;
+}
+
+.seatButton.addedToCart {
+    background-color: #03e2ff;
+    color: #000;
+    cursor: not-allowed;
+}
+
+.seatButton.available {
+    background-color: #00a86b;
+    color: #000;
+    color: #fff;
+}
+
+/* Example styles for seat numbers */
+.seatNo {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* Styling for seat buttons on hover */
+.seatButton.available:hover {
+    background-color: #003b0a;
+}
+.seatButton.booked:hover {
+    background-color: #8f1010;
+}
+.seatButton.addedToCart:hover {
+background-color: #07a7bc;
+}

@@ -1,0 +1,78 @@
+/* SearchForm.css */
+
+/* Styles for the search form container */
+.searchForm {
+    margin-bottom: 20px;
+    text-align: center;
+    /* border:1px solid red; */
+    display: flex;
+    align-items: center;
+    
+}
+
+/* Styles for the input fields and search button */
+.searchForm label {
+    display: block;
+  
+}
+
+.searchForm input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+}
+
+.searchForm button {
+    padding: 15px 25px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: -1px;
+}
+
+.searchForm button:hover {
+    background-color: #0056b3;
+}
+
+/* Styles for the table */
+.Table {
+    text-align: center;
+}
+
+.Table table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.Table th,
+.Table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.Table th {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.Table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Styles for the "Check" button */
+.Table button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.Table button:hover {
+    background-color: #0056b3;
+}

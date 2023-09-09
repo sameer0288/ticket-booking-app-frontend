@@ -1,0 +1,72 @@
+/* Header.css */
+
+/* Styles for the main navbar */
+a{
+    text-decoration: none;
+color: #fff;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+        /* border: 1px solid red; */
+}
+
+/* Styles for the logo */
+.logo h1 {
+    font-size: 24px;
+}
+
+/* Styles for the user information or login button */
+.user-info {
+    display: flex;
+    width: 50%;
+    /* border: 1px solid red; */
+    align-items: center;
+    justify-content: space-between;
+}
+
+.user-info h2 {
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.user-info button {
+    background-color: #fff;
+    color: #007bff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 10px;
+    /* Add margin to separate the buttons */
+}
+
+.user-info button:hover {
+    background-color: #0056b3;
+    color: #fff;
+}
+
+/* CSS in your Header.css or a separate CSS file */
+@keyframes bounce {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-5px);
+        /* Adjust the bounce height as needed */
+    }
+}
+
+.bouncing-text {
+    animation: bounce 1s infinite;
+    /* Adjust the animation duration as needed */
+}

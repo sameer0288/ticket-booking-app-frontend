@@ -1,0 +1,77 @@
+/* Login.css */
+
+/* Styles for the main heading */
+.login-main{
+    margin-top: 4rem;
+}
+.Heading {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+/* Styles for the form container */
+.authForm {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles for the form labels and inputs */
+.authForm label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.authForm input[type="email"],
+.authForm input[type="password"] {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* Styles for the login button */
+.authForm button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 20px;
+    width: 100%;
+}
+
+.authForm button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Styles for the "If You are not Registered" button */
+.authForm a button {
+    background-color: white;
+    color: black;
+    border: 1px solid #007bff ;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 20px;
+    width: 100%;
+    text-decoration: none;
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.authForm a button:hover {
+    background-color: #f2f2f2;
+}
+
+a{
+    text-decoration: none;
+}

@@ -1,0 +1,76 @@
+/* Cart component styles */
+.Heading {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+.Table {
+    margin: 20px auto;
+    max-width: 90%;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th {
+    background: blue;
+    color: white;
+    font-weight: bold;
+    text-align: left;
+    padding: 10px;
+}
+
+table td {
+    padding: 10px;
+}
+
+.action button {
+    padding: 5px 10px;
+    margin-right: 5px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+.book {
+    background-color: #4caf50;
+    color: white;
+    padding: 0.6rem !important;
+}
+
+.cancel {
+    background-color: #f44336 !important;
+    color: white;
+    padding: 0.6rem !important;
+}
+
+.book:hover,
+.cancel:hover {
+    opacity: 0.8;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .Table {
+        padding: 10px;
+    }
+
+    table th,
+    table td {
+        font-size: 14px;
+    }
+
+    .action button {
+        padding: 3px 6px;
+        font-size: 12px;
+    }
+}
